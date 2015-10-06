@@ -11,4 +11,5 @@ It uses the SOAP API provided by the ISPconfig3 team. It has mostly been a copy'
 - Check your ISPConfig3 dashboard for the changes
 
 # References
-- https://www.howtoforge.com/how-to-create-remote-api-scripts-for-ispconfig-3
+- ISPconfig3 basic tutorial on API - https://www.howtoforge.com/how-to-create-remote-api-scripts-for-ispconfig-3
+- API class - http://git.ispconfig.org/ispconfig/ispconfig3/tree/master/interface/lib/classes/remote.d
