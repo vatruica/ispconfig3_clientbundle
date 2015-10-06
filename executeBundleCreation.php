@@ -127,10 +127,14 @@ try {
 			'added_date' => $today
 			);
 	
-	$clientID = $client->client_add($session_id, $reseller_id, $paramsClientAdd);
-	
-	// attributing the client id to the newly created
-	$client_id = $clientID;
+	if ($_POST["clientadd"] == "no") {
+		// admin becomes the client for new domain
+		$client_id = 0;
+	} else {
+		$clientID = $client->client_add($session_id, $reseller_id, $paramsClientAdd);
+		// attributing the client id to the newly created
+		$client_id = $clientID;
+	}
 	
 /* sites_web_domain_add 
  * 
