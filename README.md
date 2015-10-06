@@ -13,3 +13,5 @@ It uses the SOAP API provided by the ISPconfig3 team. It has mostly been a copy'
 # References
 - ISPconfig3 basic tutorial on API - https://www.howtoforge.com/how-to-create-remote-api-scripts-for-ispconfig-3
 - API class - http://git.ispconfig.org/ispconfig/ispconfig3/tree/master/interface/lib/classes/remote.d
+- Initial gist code - https://gist.github.com/victor1tnet/542757bf82861074ce40
+- ISPconfig3 forum post on repo - https://www.howtoforge.com/community/threads/account-bundle-website-ftp-user-db-dbuser-maildomain-mailbox.71175/
